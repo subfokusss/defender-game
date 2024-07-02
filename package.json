@@ -1,19 +1,23 @@
 {
   "name": "defender-game",
   "version": "1.0.0",
-  "description": "",
+  "description": "Browser based game",
   "main": "index.js",
   "scripts": {
+    "test": "",
     "build": "babel src -d dist"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/subfokusss/defender-game.git"
+  },
+  "keywords": ["game"],
+  "author": "Subfokus",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.24.5",
-    "@babel/core": "^7.24.5",
-    "@babel/preset-env": "^7.24.5"
-  },
-  "dependencies": {
-    "core-js": "^3.37.1"
+    "@babel/core": "^7.25.5",
+    "@babel/preset-env": "^7.24.5",
+    "core-js": "^3.22.0"
   }
 }
